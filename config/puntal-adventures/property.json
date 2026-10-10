@@ -1,0 +1,196 @@
+{
+  "slug": "puntal-adventures",
+  "kind": "experience",
+  "realBrand": true,
+  "bookingMode": "request",
+  "brand": {
+    "name": "Puntal Adventures",
+    "logoText": "Puntal Adventures",
+    "tagline": {
+      "en": "Premium rock climbing and adventure tours in Tenerife and the Canary Islands",
+      "es": "Escalada en roca premium y experiencias al aire libre en Tenerife y las Islas Canarias"
+    },
+    "primary": "#D35400",
+    "accent": "#2C3E50",
+    "neutral": "#2C3E50",
+    "fontPairing": "modern"
+  },
+  "currency": "EUR",
+  "languages": [
+    "en",
+    "es"
+  ],
+  "depositPercent": 0,
+  "strings": {
+    "en": {
+      "dates.titleExperience": "Which day would you like?",
+      "dates.guestsLabel": "People",
+      "dates.guest": "person",
+      "dates.guests": "people",
+      "summary.guests": "People",
+      "units.titleExperience": "Choose your activity",
+      "units.capacityUpTo": "Roy confirms availability for your group in his reply",
+      "guest.message": "Anything else?",
+      "guest.messageRequestHint": "Where you are staying, a preferred start time, and for a multi-day trip the number of days and the islands you have in mind.",
+      "confirm.requestBody": "Nothing is booked or charged yet. Roy will read your request and get back to you within 24 hours to organise your day.",
+      "policy.title": "Good to know before you send"
+    },
+    "es": {
+      "dates.titleExperience": "Elija el día",
+      "dates.guestsLabel": "Personas",
+      "dates.guest": "persona",
+      "dates.guests": "personas",
+      "summary.guests": "Personas",
+      "units.titleExperience": "Elija su actividad",
+      "units.capacityUpTo": "Roy confirma la disponibilidad para su grupo al responder",
+      "guest.message": "Algo más",
+      "guest.messageRequestHint": "Dónde se aloja, la hora de inicio que prefiere y, para un viaje de varios días, el número de días y las islas que tiene en mente.",
+      "confirm.requestBody": "Todavía no hay nada reservado ni cobrado. Roy leerá su solicitud y le responderá en menos de 24 horas para organizar su día.",
+      "policy.title": "Antes de enviar"
+    }
+  },
+  "policy": {
+    "en": "Sending this request books nothing and charges nothing. Roy reads every request himself and replies within 24 hours, as on puntaladventures.com. All gear is provided: harness, helmet and rope for climbing, wetsuit, helmet and descending gear for canyoning. Roy confirms the price and the date in his reply. Cancellation terms: not yet published on puntaladventures.com. This line is a placeholder for the demo.",
+    "es": "Enviar esta solicitud no reserva nada ni cobra nada. Roy lee cada solicitud personalmente y responde en menos de 24 horas, como en puntaladventures.com. Todo el material está incluido: arnés, casco y cuerda para escalar, neopreno, casco y material de descenso para barranquismo. Roy confirma el precio y la fecha al responder. Condiciones de cancelación: todavía no publicadas en puntaladventures.com. Esta línea es un marcador de posición para la demo."
+  },
+  "priceNote": {
+    "en": "Price confirmed by Roy with his reply",
+    "es": "Roy confirma el precio al responder"
+  },
+  "extraQuestions": [
+    {
+      "id": "level",
+      "label": {
+        "en": "Your level",
+        "es": "Su nivel"
+      },
+      "type": "select",
+      "required": true,
+      "hint": {
+        "en": "Climbing or canyoning experience, or hiking fitness, whichever applies to the activity you chose.",
+        "es": "Experiencia en escalada o barranquismo, o forma física para senderismo, según la actividad elegida."
+      },
+      "options": [
+        {
+          "id": "beginner",
+          "label": {
+            "en": "Beginner, first time",
+            "es": "Principiante, primera vez"
+          }
+        },
+        {
+          "id": "some",
+          "label": {
+            "en": "Some experience",
+            "es": "Algo de experiencia"
+          }
+        },
+        {
+          "id": "experienced",
+          "label": {
+            "en": "Experienced",
+            "es": "Con experiencia"
+          }
+        },
+        {
+          "id": "expert",
+          "label": {
+            "en": "Expert",
+            "es": "Experto"
+          }
+        }
+      ]
+    }
+  ],
+  "confirmationExtras": {
+    "meetingPoint": {
+      "en": "Agreed with Roy in his reply. Puntal Adventures, Calle Doctor Fleming 10, Santa Cruz de Tenerife. Call or WhatsApp +34 628 34 72 92.",
+      "es": "Se acuerda con Roy en su respuesta. Puntal Adventures, Calle Doctor Fleming 10, Santa Cruz de Tenerife. Llamada o WhatsApp +34 628 34 72 92."
+    }
+  },
+  "images": {
+    "hero": "images/hero.webp",
+    "gallery": [
+      "images/sunset-climb.webp",
+      "images/gorge-climb.webp"
+    ]
+  },
+  "blockedDates": [],
+  "units": [
+    {
+      "id": "climbing-half-day",
+      "name": {
+        "en": "Rock Climbing, half day",
+        "es": "Escalada en roca, medio día"
+      },
+      "description": {
+        "en": "Guided climbing on the island's volcanic crags, all premium equipment provided. From your first sport route to multi-pitch climbs, Roy adapts the sector to your level. Half day, all levels.",
+        "es": "Escalada guiada por los sectores de roca volcánica de la isla, con todo el equipo necesario. Desde su primera vía deportiva hasta vías de varios largos, Roy adapta el sector a su nivel. Medio día, todos los niveles."
+      },
+      "image": "images/climbing.webp",
+      "capacity": 30,
+      "basePrice": 0,
+      "priceUnit": "perPerson"
+    },
+    {
+      "id": "climbing-full-day",
+      "name": {
+        "en": "Rock Climbing, full day",
+        "es": "Escalada en roca, día completo"
+      },
+      "description": {
+        "en": "A full day on the island's best volcanic crags with a certified guide and all premium equipment. Time for several sectors, or for a multi-pitch route. All levels.",
+        "es": "Un día completo en los mejores sectores volcánicos de la isla con un guía certificado y todo el equipo. Tiempo para varios sectores o para una vía de varios largos. Todos los niveles."
+      },
+      "image": "images/sunset-climb.webp",
+      "capacity": 30,
+      "basePrice": 0,
+      "priceUnit": "perPerson"
+    },
+    {
+      "id": "hiking-teide",
+      "name": {
+        "en": "Hiking, Mount Teide and beyond",
+        "es": "Senderismo por el Teide"
+      },
+      "description": {
+        "en": "Ancient forests, deep ravines and the lunar landscapes of Teide National Park, on low-ratio guided hikes away from the crowded trails. 4 to 6 hours, easy to challenging.",
+        "es": "Bosques milenarios, barrancos profundos y los paisajes lunares del Parque Nacional del Teide, en rutas guiadas con ratio bajo lejos de los senderos masificados. De 4 a 6 horas, de fácil a exigente."
+      },
+      "image": "images/hiking.webp",
+      "capacity": 30,
+      "basePrice": 0,
+      "priceUnit": "perPerson"
+    },
+    {
+      "id": "canyoning",
+      "name": {
+        "en": "Volcanic Canyoning, half day",
+        "es": "Barranquismo volcánico, medio día"
+      },
+      "description": {
+        "en": "Descend lush ravines and waterfalls in the heart of Tenerife's ancient geology. Premium wetsuits, helmets and descending gear provided. Half day, beginners to advanced.",
+        "es": "Descenso por frondosos barrancos y saltos de agua en el corazón de la geología antigua de Tenerife. Neoprenos, cascos y material de descenso incluidos. Medio día, de iniciación a avanzado."
+      },
+      "image": "images/canyoning.webp",
+      "capacity": 30,
+      "basePrice": 0,
+      "priceUnit": "perPerson"
+    },
+    {
+      "id": "multi-day",
+      "name": {
+        "en": "Multi-day Adventure, tailor-made",
+        "es": "Aventura de varios días, a medida"
+      },
+      "description": {
+        "en": "A bespoke multi-day expedition across the Canary Islands: deep-water soloing, bouldering, or trekking combined with sailing. Pick your first day here and tell Roy the number of days and islands in the note; he designs and quotes the whole trip in his reply.",
+        "es": "Una expedición de varios días a medida por las Islas Canarias: psicobloc, boulder o trekking combinado con navegación. Elija aquí el primer día e indique a Roy en la nota el número de días y las islas; él diseña y presupuesta el viaje completo al responder."
+      },
+      "image": "images/adventure.webp",
+      "capacity": 30,
+      "basePrice": 0,
+      "priceUnit": "perPerson"
+    }
+  ]
+}
